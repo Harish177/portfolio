@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://img.icons8.com/external-others-inmotus-design/180/000000/external-H-alphabet-others-inmotus-design-19.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://img.icons8.com/external-others-inmotus-design/32/000000/external-H-alphabet-others-inmotus-design-19.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://img.icons8.com/external-others-inmotus-design/16/000000/external-H-alphabet-others-inmotus-design-19.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/external-others-inmotus-design/16/000000/external-H-alphabet-others-inmotus-design-19.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+
+    <title>Harish || Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav container">
+       
+        <a href="#" class="nav_logo"> <img src="/images/logo.png" alt="Logo">
+        </a>
+        <div class="nav_menu">
+          <ul class="nav_list grid">
+            <li class="nav_list" onclick="toggleHeader('home_link')">
+              <a href="#home" class="nav_link home_link"><i class="uil uil-estate nav_icon"></i>Home</a>
+            </li>
+
+            <li class="nav_list" onclick="toggleHeader('about_link')">
+              <a href="#about" class="nav_link about_link"><i class="uil uil-user nav_icon"></i>About</a>
+            </li>
+
+            <li class="nav_list" onclick="toggleHeader('skills_link')">
+              <a href="#skills" class="nav_link skills_link"><i class="uil uil-file-alt nav_icon"></i>Skills</a>
+            </li>
+
+            <li class="nav_list" onclick="toggleHeader('certificate_link')">
+              <a href="#certification" class="nav_link certificate_link">
+                <i class="uil uil-medal nav_icon"></i>
+                Certification</a>
+            </li>
+
+            <li class="nav_list" onclick="toggleHeader('portfolio_link')">
+              <a href="#portfolio" class="nav_link portfolio_link"><i class="uil uil-scenery nav_icon"></i>Portfolio</a>
+            </li>
+
+            <li class="nav_list" onclick="toggleHeader('contact_link')">
+              <a href="#contact" class="nav_link contact_link">
+                <i class="uil uil-message nav_icon"></i>
+                Contact</a>
+            </li>
+          </ul>
+
+          <i class="uil uil-times nav_close"></i>
+        </div>
+
+        <div class="nav_toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a href="https://github.com/harish177" class="home_social-icon" target="_blank" rel="noopener" aria-label="Github Profile Link"><i class="uil uil-github-alt"></i></a>
+              <a href="https://in.linkedin.com/in/iamharish17" class="home_social-icon" target="_blank" rel="noopener" aria-label="LinkedIn Profile Link">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://www.instagram.com/ha.ri.sh17/" class="home_social-icon" target="_blank" rel="noopener" aria-label="Credly Profile Link">
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+            <div class="home_img"></div>
+            <div class="home_data">
+              <h1 class="home_title">Harish A</h1>
+              <h3 class="home_subtitle">An Engineer who Codes!</h3>
+              <p class="home_description">
+                Code clicks with me, but so does the Camera.<br>An Engineer who loves creating Web Solutions and Capturing Life's Moments.
+              </p>
+              <a href="mailto:iamharish777@gmail.com" target="_blank" rel="noopener" class="button button--flex">Contact<i class="uil uil-telegram-alt" style="padding:5px"></i></a>
+            </div>
+          </div>
+          <div class="home_scroll" onclick="toggleHeader('about_link')">
+            <a href="#about" class="home_scroll-button button--flex">
+              <img src="images/scroll_down.svg" alt="Scroll Down Logo" class="home_scroll-button-icon">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">In a nuteshell</span>
+
+        <div class="about_container container grid">
+          <img src="images/About.jpeg" alt="Profile Pic" class="about_img">
+          <div class="about_data">
+            <br>
+            <p class="about_description">
+              This is Harish. I’m from Tirunelveli, Tamil Nadu.
+              I’m currently pursuing my Bachelors Degree in Computer Science at Thiagarajar College of Engineering, Madurai.<br><br>
+              I love creating repsonsive Web Applications with best User Interface and User Experience(UI and UX). 
+              Expert in both technical and non-technical skills, bringing a well-rounded approach to problem-solving and project execution.
+              I have a strong track record of accomplishing things before deadline.<br><br> 
+              Apart from that I’m the General Secretary of Visual Arts Club in my college where I work with people belonging to different domains like Cinematography, Script Writing, Poster Making, Graphic Designing, Video Editing, Content creation, Acting etc. 
+              I am also a Passionate Photographer who used travel with camera and lens when life hits hard.
+            </p>
+            <!--<a href="assets/cv.pdf" target="_blank" rel="noopener" class="button button--flex cv_download">Download CV<img src="images/download.svg" alt="Download Logo"></a> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="qualification section">
+        <h2 class="section_title">Qualification</h2>
+        <span class="section_subtitle">My journey</span>
+
+        <div class="qualification_container container">
+          <div class="qualification_button button--flex">
+            <i class="uil uil-graduation-cap qualification_icon"></i>Education
+          </div>
+
+          <div class="qualification_section">
+            <div class="qualification_content">
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">BE CSE</h3>
+                  <span class="qualification_subtitle">Thiagarajar College of Engineering, Madurai</span>
+                  <div class="qualification_calender">
+                    <i class="uil uil-calendar-alt"></i>2019 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">HSC</h3>
+                  <span class="qualification_subtitle">Sri Jayendra Swamigal Silver Jublee School, Tirunelveli</span>
+                  <div class="qualification_calender">
+                    <i class="uil uil-calendar-alt"></i>2019
+                  </div>
+                </div>
+              </div>
+
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">SSLC</h3>
+                  <span class="qualification_subtitle">Sri Jayendra Swamigal Silver Jublee School, Tirunelveli</span>
+                  <div class="qualification_calender">
+                    <i class="uil uil-calendar-alt"></i>2017
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Date of Birth</h3>
+                  <div class="qualification_calender">
+                    <i class="uil uil-calendar-alt"></i>May 17, 2002<br>Tirunelveli, Tamil Nadu
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skils section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">The Technical and Non-Technical that I have!</span>
+
+        <div class="skills_container container grid">
+          <div class="skills_content">
+            <h2 class="skills_title">Programming Language</h2>
+            <div class="skills_box">
+              <div class="skills_group">
+                <div class="skills_data">
+                  <div>
+                    <p>I am well versed in Java. I have earned Gold Level Badge from Hackerrank. I also know C Programming and Python</p>
+                    <h3 class="skills_name">	Java 19, C, Python 3.9</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <h3 class="skills_title">Web Technologies</h3>
+            <div class="skills_box">
+              <div class="skills_group">
+                <div class="skills_data">
+                  <div>
+                    <p>I use HTML, CSS, Javascript and Bootstrap as Front-End development for creating simple, static and repsonsive websites. 
+                      In order to make my wesbite more dynamic I use Django Framework as Back-end</p>
+                       <h3 class="skills_name">	HTML5, CSS3, Javascript ES6, Django</h3>
+                       <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills_content">
+            <h2 class="skills_title">Others</h2>
+            <div class="skills_box">
+              <div class="skills_group">
+                <div class="skills_data">
+                  <div>
+                    <h4 class="skills_name">Rest API</h4>
+                    <h4 class="skills_name">Postman API</h4>
+                    <h4 class="skills_name">Database Management System</h4>
+                    <h4 class="skills_name">MySQL</h4>
+                    <h4 class="skills_name">Bootstrap</h4>
+                    <h4 class="skills_name">Cloud Computing</h4>
+                    <h4 class="skills_name">AWS S3</h4>
+                    <h4 class="skills_name">Adobe Photoshop</h4>
+                    <h4 class="skills_name">Figma</h4>
+                    <h4 class="skills_name">Material UI</h4>
+                    <h4 class="skills_name">Landscape Photography</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="portfolio">
+        <h2 class="section_title">Projects</h2>
+        <span class="section_subtitle">Here are some of my projects I've done during my college days</span>
+        <div>
+          <div class="work_container container grid">
+            <div class="work_card">
+              <img src="images/Proj1.png" alt="Calorie Tracker App image" class="work_img">
+              <h3 class="work_title">Calorie Tracker App</h3>
+              <a href="https://github.com/Harish177/calorieTracker" target="_blank" rel="noopener" class="work_button">Source Code
+                <i class="bx bx-right-arrow-alt work_button-icon"></i></a>
+            </div>
+
+            <div class="work_card">
+              <img src="images/peca.png" alt="Peca app image" class="work_img">
+              <h3 class="work_title">Peca</h3>
+              <a href="https://github.com/Harish177/Peca" target="_blank" rel="noopener" class="work_button">Source Code
+                <i class="bx bx-right-arrow-alt work_button-icon"></i></a>
+            </div>
+
+            <div class="work_card">
+              <img src="images/Proj2.png" alt="Headline website image" class="work_img">
+              <h3 class="work_title">15 Puzzle Game</h3>
+              <a href="https://github.com/Harish177/15-puzzle-game" target="_blank" rel="noopener" class="work_button">Source Code
+                <i class="bx bx-right-arrow-alt work_button-icon"></i></a>
+            </div>
+
+            <div class="work_card">
+              <img src="images/task_lock.png" alt="Task Lock app image" class="work_img">
+              <h3 class="work_title">Task Lock</h3>
+              <a href="https://github.com/Harish177/Task_Lock" target="_blank" rel="noopener" class="work_button">Source Code
+                <i class="bx bx-right-arrow-alt work_button-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="portfolio">
+        <h2 class="section_title">Photography</h2>
+        <span class="section_subtitle">Here are some of my favourite photos of all time. For colloborations <a style="color:#e5202b; text-decoration: none;" href="mailto:iamharish777@gmail.com">ping me</a></span>
+        <div>
+          <div class="photo_container container grid">
+              <a href="images/img1.jpg" target="_blank"><img src="images/img1.jpg" alt="Calorie Tracker App image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img2.jpg" alt="Peca app image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img3.jpg" alt="Headline website image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img4.jpg" alt="Task Lock app image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img5.jpg" alt="Calorie Tracker App image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img6.jpg" alt="Peca app image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img10.jpg" alt="Headline website image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img11.jpg" alt="Task Lock app image" class="photo_img"></a>
+              <a href="images/img1.jpg" target="_blank"><img src="images/img12.jpg" alt="Headline website image" class="photo_img"></a>
+            </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section_title" style="color:#ffffff">Contact Me</h2>
+        <span class="section_subtitle">Let us talk</span>
+              <div class="footer_social">
+                <div class="footer_social-link">
+                  <a href="https://linkedin.com/in/iamharish17" class="footer_social-icon" target="_blank" rel="noopener" aria-label="LinkedIn Profile Link">
+                    <i class="bx bxl-linkedin"></i></a>
+                  <a href="https://github.com/harish177" class="footer_social-icon" target="_blank" rel="noopener" aria-label="LinkedIn Profile Link">
+                    <i class="bx bxl-github"></i></a>
+                  <a href="https://instagram.com/ha.ri.sh17" class="footer_social-icon" target="_blank" rel="noopener" aria-label="Instagram Profile Link">
+                    <i class="bx bxl-instagram"></i></a>
+                  <a href="https://www.twitter.com/HarishHR7D/" class="footer_social-icon" target="_blank" rel="noopener" aria-label="Twitter Profile Link">
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                  <a href="https://api.whatsapp.com/send/?phone=919489882920" class="footer_social-icon" target="_blank" rel="noopener" aria-label="Whatsapp Profile Link">
+                    <i class="bx bxl-whatsapp"></i>
+                  </a>
+                  </a>
+                </div>
+              </div>
+              <span class="footer_end">
+                Made with <i class="uil uil-heart"></i> Harish
+              </span>
+      </section>
+    </main>
+    <a href="#" class="scrollup">
+      <i class="uil uil-arrow-up scrollup_icon" onclick="toggleHeader('home_link')"></i>
+    </a>
+
+    
+  <!-- Code injected by live-server -->
+</body>
+</html>
